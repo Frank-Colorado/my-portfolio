@@ -8,6 +8,8 @@
     font-family: sans-serif;
 }
 
+/* BODY STYLING */
+
 body {
     height: 100%;
     display: block;
@@ -46,8 +48,10 @@ main {
 }
 
 .container {
-    width: 100%;
+
+    width: 75%;
     margin: auto;
+    padding: 35px 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -56,7 +60,7 @@ main {
 }
 
 .content-headers {
-    width:11%;
+    width:5%;
     display: flex;
     margin: auto 25px auto 75px;
 }
