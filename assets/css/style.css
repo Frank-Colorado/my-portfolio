@@ -28,7 +28,8 @@ body {
     border-bottom: 1px solid #efefef;
 }
 
-.large-text {
+.navbar-header {
+    margin-right: 600px;
     font-size: 40px;
 }
 
@@ -55,6 +56,10 @@ main {
     flex-direction: column;
 }
 
+main p {
+    font-size: 17px;
+}
+
 .container {
 
     width: 75%;
@@ -74,10 +79,12 @@ main {
 }
 
 .content {
+    display:flex;
     width: 70%;
     margin: auto;
     padding-left: 30px;
     border-left: 5px solid black;
+    justify-content: center;
 }
 
 #my_work {
