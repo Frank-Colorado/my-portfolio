@@ -101,12 +101,56 @@ main p {
 }
 
 
-
-
 #my_work {
     margin-bottom: 200px;
 }
 
-@media (min-width: 500px) {
 
+
+
+@media (max-width: 481px) {
+  .navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+}
+
+
+@media (max-width: 481px) {
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+}
+
+@media (max-width: 481px) {
+    .content {
+        display:flex;
+        flex-direction: column;
+        width: 70%;
+        margin: auto;
+        padding-left: 30px;
+        border-left: 0px;
+        align-items: center;        
+    }
+    }
+
+ @media (max-width: 481px) {
+     .content-headers {
+        width:5%;
+        display: flex;
+        margin: auto 25px 20px 0px;
+    }
+ }
+
+
+@media (max-width: 481px) {
+    .content .portrait {
+        width: 200px;
+        height: 200px;
+        margin: auto;
+      }
 }
