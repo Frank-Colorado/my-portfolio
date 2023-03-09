@@ -66,6 +66,13 @@ main p {
 }
 
 
+
+
+
+
+
+
+/* ABOUT ME SYLING */
 .container {
 
     width: 75%;
@@ -99,11 +106,88 @@ main p {
     height:300px;
     margin-right: 75px;
 }
+ .content p{
+    margin-right: 300px;
+ }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* MY WORK STYLING */
 
 #my_work {
     margin-bottom: 200px;
 }
+
+
+.my-work {
+    display:flex;
+    flex-direction: column;
+    width: 70%;
+    margin: auto;
+    padding-left: 30px;
+    border-left: 5px solid black;
+    justify-content: center;
+    align-items: center;
+}
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: auto 30 auto 20;
+}
+
+.project .large-img {
+    width: 400px;
+}
+
+
+
+.small-projects {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.projects .small-img{
+    width: 250px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
