@@ -15,11 +15,11 @@ body {
 }
 
 
+
 /* NAVBAR STYLING */
 
 .navbar {
-    width: 100%;
-    
+   
     padding: 35px 0;
     display: flex;
     align-items: center;
@@ -65,31 +65,22 @@ main p {
     font-size: 17px;
 }
 
-
-
-
-
-
-
-
-/* ABOUT ME SYLING */
-.container {
-
-    width: 75%;
+.main-container {
+    width: 80%;
     margin: auto;
     padding: 35px 0;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 35px 0;
-    
 }
 
-.content-headers {
+.main-headers {
     width:5%;
     display: flex;
     margin: auto 25px auto 75px;
 }
+
+
+
+/* ABOUT ME SYLING */
 
 .content {
     display:flex;
@@ -112,27 +103,7 @@ main p {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* MY WORK STYLING */
-
-#my_work {
-    margin-bottom: 200px;
-}
-
 
 .my-work {
     display:flex;
@@ -153,11 +124,9 @@ main p {
     padding: auto 30 auto 20;
 }
 
-.project .large-img {
+.projects .large-img {
     width: 400px;
 }
-
-
 
 .small-projects {
     width: 25%;
@@ -171,38 +140,42 @@ main p {
     width: 250px;
 }
 
+#my_work {
+    margin-bottom: 200px;
+}
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* MEDIA QUERIES FOR NAVBAR */
 @media (max-width: 481px) {
   .navbar {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    margin-left: 50px;
 }
 }
-
 
 @media (max-width: 481px) {
-.container {
+    .navbar li {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    border-bottom: none;
+    }
+}
+
+@media (max-width: 481px) {
+    .navbar h1 {
+    margin: auto;
+    }
+}
+
+
+
+/* MEDIA QUERIES FOR MAIN */
+
+@media (max-width: 481px) {
+.main-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -211,30 +184,67 @@ main p {
 }
 
 @media (max-width: 481px) {
-    .content {
-        display:flex;
-        flex-direction: column;
-        width: 70%;
-        margin: auto;
-        padding-left: 30px;
-        border-left: 0px;
-        align-items: center;        
-    }
-    }
+    .main-headers {
+       width:5%;
+       display: flex;
+       margin: auto 25px 20px 0px;
+   }
+}
 
- @media (max-width: 481px) {
-     .content-headers {
-        width:5%;
-        display: flex;
-        margin: auto 25px 20px 0px;
-    }
- }
 
+
+/* MEDIA QUERIES FOR ABOUT_ME */
 
 @media (max-width: 481px) {
     .content .portrait {
         width: 200px;
         height: 200px;
+        margin: auto auto auto 200px;
+     }
+}
+
+@media (max-width: 481px) {
+    .content {
+        display:flex;
+        width: 70%;
         margin: auto;
-      }
+        border-left: 0px;
+    }
+ }
+
+ @media (max-width: 481px) {
+    .content  p {
+        padding-left: 70px;
+        margin-right: 200px;
+    }
+}
+
+
+/* MEDIA QUERIES FOR MY_WORK */
+
+@media (max-width: 481px) {
+    .my-work {
+        display:flex;
+        width: 70%;
+        margin: auto;
+        border-left: 0px;
+    }
+ }
+ @media (max-width: 481px) {
+    .projects {
+        width: 25%;
+        display: flex;
+        flex-direction: column;
+       
+        
+    
+    }
+}
+
+@media (max-width: 481px) {
+    .small-projects {
+        width: 25%;
+        display: flex;
+        flex-direction: column;
+    }
 }
